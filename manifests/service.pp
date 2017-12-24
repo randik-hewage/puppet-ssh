@@ -5,5 +5,4 @@ class ssh::service {
     hasstatus  => true,
     hasrestart => true,
   }
-  
 }
