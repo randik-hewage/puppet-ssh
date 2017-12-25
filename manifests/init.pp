@@ -49,6 +49,6 @@ class ssh (
   class { '::ssh::install':}
   class { '::ssh::service':}
   
-  Class ['::ssh::install'] -> Class ['::ssh::service']
+  Class['::ssh::install'] -> Class['::ssh::service']
   
 }
