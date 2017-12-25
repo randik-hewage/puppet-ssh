@@ -53,5 +53,5 @@ class ssh (
     require => Class ['::ssh::install'],
   }
   
-  #Class ['::ssh::install'] -> Class ['::ssh::service']
+  #Class ['::ssh::install'] -> Class [::ssh::service]
 }
